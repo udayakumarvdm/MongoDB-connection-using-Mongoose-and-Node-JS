@@ -6,16 +6,16 @@ npm install
 2.Create User.js
 # define the Schema
 -------------------------
-  // create a schema
-  var userSchema = new Schema({
-    name: {
-          firstName: {
-              type: String,
-              required: true
-          },
-          lastName: String
-      }
-  });
+      // create a schema
+      var userSchema = new Schema({
+        name: {
+              firstName: {
+                  type: String,
+                  required: true
+              },
+              lastName: String
+          }
+      });
  
 # Create Model
   var User = mongoose.model('User', userSchema);
