@@ -5,6 +5,7 @@ npm install
 
 2.Create User.js
 # define the Schema
+-------------------------
   // create a schema
   var userSchema = new Schema({
     name: {
